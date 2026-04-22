@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "whcraft:block/necron_tomb_wall_block"
+  }
+}
