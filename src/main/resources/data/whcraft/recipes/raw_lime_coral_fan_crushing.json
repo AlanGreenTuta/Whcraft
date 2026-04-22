@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "c:all_coral_fans"
-  },
-  "count": 2,
-  "result": "whcraft:raw_lime"
-}

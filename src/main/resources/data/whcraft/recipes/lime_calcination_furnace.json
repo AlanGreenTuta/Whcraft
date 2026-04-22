@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "whcraft:raw_lime"
-  },
-  "result": "whcraft:lime",
-  "experience": 2,
-  "cookingtime": 50
-}
