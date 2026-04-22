@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "show_notification": false,
+  "ingredients": [
+    {
+      "tag": "c:redstone_dusts"
+    },
+    {
+      "tag": "c:quartz_blocks"
+    },
+    {
+      "fabric:type": "whcraft:stc_module",
+      "modules": ["circuitry"]
+    }
+  ],
+  "result": {
+    "count": 8,
+    "item": "whcraft:circuitry"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "whcraft:inferior_plasteel_blank"
+  },
+  "result": "whcraft:inferior_plasteel",
+  "experience": 10,
+  "cookingtime": 300
+}

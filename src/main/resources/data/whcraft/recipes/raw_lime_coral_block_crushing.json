@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "c:all_coral_blocks"
+  },
+  "count": 18,
+  "result": "whcraft:raw_lime"
+}
