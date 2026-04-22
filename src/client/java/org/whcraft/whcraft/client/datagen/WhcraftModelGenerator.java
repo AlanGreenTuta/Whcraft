@@ -22,6 +22,8 @@ import net.minecraft.data.client.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import org.whcraft.whcraft.WhcraftBlocks;
+import org.whcraft.whcraft.WhcraftItems;
 
 import java.util.Optional;
 
@@ -36,6 +38,10 @@ public class WhcraftModelGenerator extends FabricModelProvider {
         // 在此处调用 registerSimpleBlockStateModel 等方法
         // 示例：
         // registerSimpleBlockStateModel(generator, WhcraftBlocks.TEST);
+
+        // Blocks
+        registerSimpleBlockStateModel(generator, WhcraftBlocks.NECRON_TOMB_GLOWING_RUNE_A);
+        registerSimpleBlockStateModel(generator, WhcraftBlocks.NECRON_TOMB_WALL_BLOCK);
     }
 
     @Override
@@ -43,10 +49,26 @@ public class WhcraftModelGenerator extends FabricModelProvider {
         // 在此处调用 registerSimpleItemModel 和 registerSimpleBlockItemModel
         // 示例：
         // registerSimpleItemModel(generator, WhcraftItems.TEST);
-        // registerSimpleBlockItemModel(generator, WhcraftItems.TEST);
-    }
+        // registerSimpleBlockItemModel(generator, WhcraftItems.TEST.asItem());
 
-    // ========== 便捷方法 ==========
+        // Items
+        registerSimpleItemModel(generator, WhcraftItems.ICON);
+        registerSimpleItemModel(generator, WhcraftItems.LIME);
+        registerSimpleItemModel(generator, WhcraftItems.RAW_LIME);
+        registerSimpleItemModel(generator, WhcraftItems.INFERIOR_PLASTEEL);
+        registerSimpleItemModel(generator, WhcraftItems.INFERIOR_PLASTEEL_BLANK);
+        registerSimpleItemModel(generator, WhcraftItems.GENE_SEED);
+        registerSimpleItemModel(generator, WhcraftItems.SERVO_SKULL);
+        registerSimpleItemModel(generator, WhcraftItems.BROKEN_SERVO_SKULL);
+        registerSimpleItemModel(generator, WhcraftItems.CIRCUITRY);
+        registerSimpleItemModel(generator, WhcraftItems.COGITATOR);
+        registerSimpleItemModel(generator, WhcraftItems.ALLOY_SKELETON_SKULL);
+        registerSimpleItemModel(generator, WhcraftItems.STC);
+
+        // BlockItems
+        registerSimpleBlockItemModel(generator, WhcraftBlocks.NECRON_TOMB_GLOWING_RUNE_A.asItem());
+        registerSimpleBlockItemModel(generator, WhcraftBlocks.NECRON_TOMB_WALL_BLOCK.asItem());
+    }
 
     /**
      * 注册简单物品模型 (parent: "item/generated", texture layer0)
