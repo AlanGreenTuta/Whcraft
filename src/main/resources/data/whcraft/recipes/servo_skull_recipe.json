@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "PKP",
+    "PCP"
+  ],
+  "key": {
+    "S": {
+      "fabric:type": "whcraft:stc_module",
+      "modules": ["servo_skull"]
+    },
+    "K": {
+      "item": "whcraft:alloy_skeleton_skull"
+    },
+    "P": {
+      "tag": "whcraft:all_plasteels"
+    },
+    "C": {
+      "item": "whcraft:cogitator"
+    }
+  },
+  "result": {
+    "item": "whcraft:servo_skull"
+  }
+}

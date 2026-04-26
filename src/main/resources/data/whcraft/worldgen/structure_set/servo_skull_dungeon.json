@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "whcraft:servo_skull_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "whcraft:servo_skull_dungeon_surface",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1847263549,
+    "spacing": 25,
+    "separation": 5
+  }
+}
