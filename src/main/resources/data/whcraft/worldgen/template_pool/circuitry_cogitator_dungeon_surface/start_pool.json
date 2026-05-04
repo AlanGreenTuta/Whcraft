@@ -1,0 +1,15 @@
+{
+  "name": "whcraft:circuitry_cogitator_dungeon_surface/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "whcraft:circuitry_cogitator_dungeon",
+        "projection": "rigid",
+        "processors": "whcraft:circuitry_cogitator_dungeon_surface_weathering"
+      }
+    }
+  ]
+}

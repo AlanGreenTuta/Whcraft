@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#whcraft:has_structure/servo_skull_dungeon",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "whcraft:servo_skull_dungeon_surface/start_pool",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 0
+    },
+    "max_inclusive": {
+      "absolute": 50
+    }
+  },
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false
+}

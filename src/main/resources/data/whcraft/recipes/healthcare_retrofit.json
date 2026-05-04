@@ -1,0 +1,15 @@
+{
+  "type": "whcraft:retrofit_crafting",
+  "retrofit": "healthcare",
+  "ingredients": [
+    {
+      "fabric:type": "whcraft:stc_module",
+      "modules": ["servo_skull"]
+    },
+    { "item": "whcraft:cogitator" },
+    { "item": "whcraft:circuitry" },
+    { "item": "whcraft:circuitry" },
+    { "item": "minecraft:golden_apple" },
+    { "item": "minecraft:charcoal" }
+  ]
+}

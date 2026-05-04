@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.whcraft.whcraft.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AstartesEatMixin",
+    "AstartesDamageModificationMixin",
+    "AstartesNightVisionMixin",
+    "EntitiesDamageModificationMixin",
+    "ServoSkullExplosionMixin",
+    "PlayerDamageModificationMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

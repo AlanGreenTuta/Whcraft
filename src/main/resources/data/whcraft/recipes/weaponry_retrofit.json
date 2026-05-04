@@ -1,0 +1,15 @@
+{
+  "type": "whcraft:retrofit_crafting",
+  "retrofit": "weaponry",
+  "ingredients": [
+    {
+      "fabric:type": "whcraft:stc_module",
+      "modules": ["servo_skull"]
+    },
+    { "item": "whcraft:cogitator" },
+    { "item": "whcraft:circuitry" },
+    { "item": "whcraft:circuitry" },
+    { "tag": "c:blaze_rods" },
+    { "tag": "c:redstone_blocks" }
+  ]
+}
